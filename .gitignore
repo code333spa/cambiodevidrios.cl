@@ -1,0 +1,22 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Temporales
+*.log
+*.tmp
+*~
+
+# Node modules (si en el futuro agregas npm)
+node_modules/
+
+# Carpetas de imágenes temporales (si usas)
+temp/
+tmp/

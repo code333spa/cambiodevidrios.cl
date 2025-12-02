@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cambiodevidrios.cl/sitemap.xml
+
+# Bloquear acceso a archivos innecesarios
+Disallow: /README.md
