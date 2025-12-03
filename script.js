@@ -17,6 +17,15 @@ document.addEventListener('DOMContentLoaded', function() {
     // Cambiar slide cada 5 segundos
     setInterval(nextSlide, 5000);
     
+    // Agregar evento al botón de WhatsApp para tracking (opcional)
+    const whatsappBtn = document.querySelector('.whatsapp-btn');
+    whatsappBtn.addEventListener('click', function() {
+        console.log('Click en botón de WhatsApp');
+        // Aquí puedes agregar analytics si lo necesitas
+    });
+});
+
+
     // Efecto de parallax suave al mover el mouse (opcional)
     /*
     document.addEventListener('mousemove', function(e) {
@@ -29,12 +38,4 @@ document.addEventListener('DOMContentLoaded', function() {
         slide.style.transform = `translate(${moveX}px, ${moveY}px) scale(1.1)`;
         });
     });
-*/
-    
-    // Agregar evento al botón de WhatsApp para tracking (opcional)
-    const whatsappBtn = document.querySelector('.whatsapp-btn');
-    whatsappBtn.addEventListener('click', function() {
-        console.log('Click en botón de WhatsApp');
-        // Aquí puedes agregar analytics si lo necesitas
-    });
-});
+    */
